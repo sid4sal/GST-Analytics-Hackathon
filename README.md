@@ -3,7 +3,7 @@
 **Team-ID = GSTN_715**  
 
 We have added the zip file of our code in this repository. Please find the checksum of this zip below:  
-`f44057d147c0cbb99794898cac4ab6e73bc0d33614ada55e3ed50d90d1ff9c26`
+`0378d84b9eddc79ce2c871a82ac3a5aa7106dcc0c07626f73d994acb3f6180de`
 
 ## **Overview**  
 This project's objective was to use AI/ML approaches to classify a dataset. We started with detailed analysis of the dataset to find key patterns, anomalies, and connections. Next, we designed an optimized preprocessing workflow to deal with missing values, handle imbalances, and create features. Various models were tested, from classical machine learning algorithms to advanced deep learning techniques such as Deep Metric Learning (DML) and autoencoders.  
@@ -132,13 +132,15 @@ Following are some of the ways which could improve the model in future:
 ## **Code Documentation and Manual**
 
 ### **Environment Setup**  
-The project utilizes **Conda** for managing dependencies, because of the ease and flexibility. You can use any other environment manager, but install the proper versions of the required libraries.  
+The project utilizes **Conda** for managing dependencies, because of the ease and flexibility. Any other environment manager can be used, but proper versions of the required libraries specified in the `environment.yml` file must be installed.  
+We used the `linux` (Ubuntu) operating system for our development and testing, but this code is usable on windows also.
 
 Follow the steps below to set up your environment:  
 1. Install **Miniconda**: Follow instructions [on the official page here](https://docs.anaconda.com/miniconda/miniconda-install/).  
 2. Navigate to the project folder and run:  
    ```bash  
    conda env create -n your_env_name -f environment.yml  
+   # Replace your_env_name with your desired environment name.
    ```  
 3. Activate the environment:
     ```bash  
